@@ -27,6 +27,16 @@ const routes: Array<RouteRecordRaw> = [
     component: () =>
       import(/* webpackChunkName: "about" */ '../views/Create.vue'),
   },
+  {
+    path: '/tags',
+    name: 'Tag',
+    // props: true,
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ '../views/Tagcloud.vue'),
+  },
 ]
 
 const router = createRouter({

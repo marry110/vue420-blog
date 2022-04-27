@@ -41,7 +41,7 @@ export default {
     // watchEffect
     //  get the data
 
-    onUnmounted(() => {
+    onMounted(() => {
       console.log(
         'destory the components after it the components will not render'
       )
