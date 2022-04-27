@@ -1,5 +1,5 @@
 <template>
-  <div>博客</div>
+  <div>spinner</div>
 </template>
 
 <script>
